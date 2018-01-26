@@ -50,8 +50,8 @@ $slick-font-path: "~slick-carousel/slick/fonts/";
 /* colors
 ================================================== */
 
-$brand-primary: #4ECDC4 !default;
-$brand-secondary: #FF6B6B !default;
+$brand-primary: #2e5db8 !default;
+$brand-secondary: #f72361 !default;
 
 $nav-hover: #bbb;
 
@@ -117,7 +117,7 @@ $input-border-focus:             $btn-primary-color !default;
 @import "_icon_editor";
 
 
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Source+Sans+Pro:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Sedgwick+Ave');
 
 /* gutter with zero space
 ================================================== */
@@ -164,7 +164,7 @@ html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
 .clear { clear:both; }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: normal;
   font-size: 16px;
   line-height:1.5em;
@@ -188,8 +188,8 @@ p { margin: 0 0 25px 0; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: 400; color: $theme-greydark;
+  font-family: 'Sedgwick Ave', cursive;
+  color: $brand-primary;
   margin: 0 0 15px 0;
   padding: 0; line-height: 1.5;
   }
@@ -199,9 +199,9 @@ h1, .h1 { font-size: 60px; line-height: 70px; }
 h2, .h2 { font-size: 42px; line-height: 50px; }
 h3, .h3 { font-size: 30px; line-height: 40px; }
 h4, .h4 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300; font-size: 22px; line-height: 30px;
-  color: $theme-greymiddle;
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 22px; line-height: 30px;
+  color: $brand-primary;
   }
 h5, .h5 { font-family: 'Source Sans Pro', sans-serif; font-size: 16px; }
 h6, .h6 { font-size: 14px; }
@@ -794,13 +794,13 @@ footer {
 .quote-portrait-wrapper { text-align: center; height: 75px; }
 .quote-portrait-wrapper a { display: inline-block; vertical-align: middle; }
 .quote-portrait-wrapper a .image {
-  width: 40px; height: 40px; @include transition(all .3s ease-in-out);
-  display: block; border-radius: 50%;
-  border: 3px solid rgb(188,188,188);
+  width: 100px; height: 40px; @include transition(all .3s ease-in-out);
+  display: block; padding: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
   margin: 5px;
   }
 .quote-portrait-wrapper a:hover .image,
-.quote-portrait-wrapper .slick-active .image { width: 75px; height: 75px; }
+.quote-portrait-wrapper .slick-active .image { width: 110px; height: 50px; }
 
 .quote-portrait-wrapper li {
   position: relative;
