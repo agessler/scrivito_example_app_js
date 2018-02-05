@@ -12,3 +12,7 @@ http://www.webdevelopmentrevolution.net/* http://www.webdevelopmentrevolution.co
 http://www.webdevelopmentrevolution.org/* http://www.webdevelopmentrevolution.com/:splat 301!
 http://www.webdevelopmentrevolution.io/* http://www.webdevelopmentrevolution.com/:splat 301!
 http://www.webdevelopmentrevolution.de/* http://www.webdevelopmentrevolution.com/:splat 301!
+https://www.webdevelopmentrevolution.net/* https://www.webdevelopmentrevolution.com/:splat 301!
+https://www.webdevelopmentrevolution.org/* https://www.webdevelopmentrevolution.com/:splat 301!
+https://www.webdevelopmentrevolution.io/* https://www.webdevelopmentrevolution.com/:splat 301!
+https://www.webdevelopmentrevolution.de/* https://www.webdevelopmentrevolution.com/:splat 301!
