@@ -275,7 +275,7 @@ small, .small { font-size: 80%; line-height: 1.5em; }
 =================================================================== */
 
 .btn {
-  font-size: 16px; font-weight: 700;
+  font-size: 16px; font-weight: 700; white-space: normal;
   text-transform: uppercase; vertical-align: middle;
   padding: 13px 20px 10px; margin: 0 0 10px 0;
   }
@@ -789,7 +789,7 @@ footer {
 .quote-headline {
   color: $brand-secondary!important;
   font-size: 200px; line-height: 0; margin: 65px 0 0 0;
-  vertical-align:middle
+  vertical-align:middle; display: none;
   }
 .quote-portrait-wrapper { text-align: center; height: 75px; }
 .quote-portrait-wrapper a { display: inline-block; vertical-align: middle; }
