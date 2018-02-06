@@ -10,3 +10,7 @@ const application = document.getElementById('application');
 if (application) {
   ReactDOM.render(<App />, application);
 }
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag(‘js’, new Date());
+gtag(‘config’, ‘UA-528505-17’, { ‘anonymize_ip’: true });
