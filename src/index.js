@@ -12,5 +12,5 @@ if (application) {
 }
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
-gtag(‘js’, new Date());
-gtag(‘config’, ‘UA-528505-17’, { ‘anonymize_ip’: true });
+gtag('js', new Date());
+gtag('config', 'UA-528505-17', { 'anonymize_ip': true });
