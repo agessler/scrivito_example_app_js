@@ -2,17 +2,17 @@
 # Netlify redirect rules. See https://www.netlify.com/docs/redirects/ for details.
 ##
 
+# Redirect domain aliases to primary domain
+http://www.webdevelopmentrevolution.net/* http://www.webdevelopmentrevolution.com/ 301!
+http://www.webdevelopmentrevolution.org/* http://www.webdevelopmentrevolution.com/ 301!
+http://www.webdevelopmentrevolution.io/* http://www.webdevelopmentrevolution.com/ 301!
+http://www.webdevelopmentrevolution.de/* http://www.webdevelopmentrevolution.com/ 301!
+https://www.webdevelopmentrevolution.net/* https://www.webdevelopmentrevolution.com/ 301!
+https://www.webdevelopmentrevolution.org/* https://www.webdevelopmentrevolution.com/ 301!
+https://www.webdevelopmentrevolution.io/* https://www.webdevelopmentrevolution.com/ 301!
+https://www.webdevelopmentrevolution.de/* https://www.webdevelopmentrevolution.com/ 301!
+
 # Scrivito routes
 /scrivito/:slug/* /scrivito/index.html 200
 /scrivito /scrivito/index.html 200
 /* /index.html 200
-
-# Redirect domain aliases to primary domain
-http://www.webdevelopmentrevolution.net/* http://www.webdevelopmentrevolution.com/:splat 301!
-http://www.webdevelopmentrevolution.org/* http://www.webdevelopmentrevolution.com/:splat 301!
-http://www.webdevelopmentrevolution.io/* http://www.webdevelopmentrevolution.com/:splat 301!
-http://www.webdevelopmentrevolution.de/* http://www.webdevelopmentrevolution.com/:splat 301!
-https://www.webdevelopmentrevolution.net/* https://www.webdevelopmentrevolution.com/:splat 301!
-https://www.webdevelopmentrevolution.org/* https://www.webdevelopmentrevolution.com/:splat 301!
-https://www.webdevelopmentrevolution.io/* https://www.webdevelopmentrevolution.com/:splat 301!
-https://www.webdevelopmentrevolution.de/* https://www.webdevelopmentrevolution.com/:splat 301!
