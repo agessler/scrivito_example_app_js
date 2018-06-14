@@ -628,6 +628,67 @@ footer {
 /* nav section adaptions */
 section.navbar-fixed { padding-top: 80px; }
 
+
+/* fix iOS bug not displaying 100% correctly */
+/* ipad */
+
+@supports (-webkit-overflow-scrolling: touch) {
+
+  @media ( min-width : 320px ) { body { width: 320px; }}
+  @media ( min-width : 723px ) { body { width: 723px; }}
+
+  @media ( min-width : 768px ) { body { width: 768px; }}
+  @media ( min-width : 970px ) { body { width: 970px; }}
+  @media ( min-width : 1024px ) { body { width: 100%; }}
+
+
+  /* fix iOS bug not displaying 100vh correctly */
+  /* ipad */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  	.full-height {
+  		height: 768px;
+  		min-height: unset;
+  	}
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  	.full-height {
+  		height: 1024px;
+  		min-height: unset;
+  	}
+  }
+  /* iphone5 */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  	.full-height {
+  		height: 320px;
+  		min-height: unset;
+  	}
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  	.full-height {
+  		height: 568px;
+  		min-height: unset;
+  	}
+  }
+  /* iPhone 4 */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  	.full-height {
+  		height: 320px;
+  		min-height: unset;
+  	}
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  	.full-height {
+  		height: 480px;
+  		min-height: unset;
+  	}
+  }
+
+
+
+}
+
+
+
 /* navbar
 =================================================================== */
 
