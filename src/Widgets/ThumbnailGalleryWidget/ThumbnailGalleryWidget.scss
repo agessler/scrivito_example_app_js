@@ -189,7 +189,7 @@
     top: 0px;
     right: 0px;
     padding: 10px;
-    background-image: url("../../assets/images/close.svg");
+    background: #333 url("../../assets/images/close.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,3 +237,16 @@
     right: 0;
   }
 }
+
+
+@media (max-width: $screen-sm-max) {
+  .ReactModalPortal--thumbnail-gallery-widget .image-wrapper,
+  .ReactModalPortal--thumbnail-gallery-widget .image-wrapper .details { display: block;}
+  .ReactModalPortal--thumbnail-gallery-widget .ReactModal__Content { 
+    inset: 0 !important;  
+    padding: 40px 0 !important;
+  }
+}
+
+
+
