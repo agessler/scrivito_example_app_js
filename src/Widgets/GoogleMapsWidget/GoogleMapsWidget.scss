@@ -39,14 +39,15 @@
   }
 
   .no-cookies-notification {
-    background-color: #fff;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 190px;
+    background: rgba(61, 65, 66, 0.85);
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    color: #fff;
+    margin: 40px;
     padding: 30px;
   }
-
+  .no-cookies-notification .cookie-button {
+    width: auto!important;
+  }
   .consent-content {
     margin-bottom: 1rem;
   }
